@@ -1,37 +1,24 @@
-## Welcome to GitHub Pages
+#python class02 date 0224
+#topic if elif else
 
-You can use the [editor on GitHub](https://github.com/miskevin/python/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/miskevin/python/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+price = 0
+item = input("please take the order(A, B, C) :")
+item = item.upper()
+if item == "A":
+    price = 100
+    addfood = input("Do you want the coke ?(Y/N):")
+    addfood = addfood.upper()
+    if addfood == "Y":
+        price += 20
+elif item == "B":
+    price = 90
+elif item == "C":
+    price = 70
+    addprice = input("Do you want donate us ?(Y/N):")
+    addprice = addprice.upper()
+    if addprice == "Y":
+        p = int(input("Enter the price :"))
+        price += p
+else:
+    print("Error, retry this order please!")
+print("You need to pay $", price)
