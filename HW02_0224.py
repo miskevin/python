@@ -9,14 +9,14 @@ for i in range(1, number +1):
         print(i,"is odd!")
 
 #【Result】
-please enter the times:10
-1 is the odd!
-2 is the even!
-3 is the odd!
-4 is the even!
-5 is the odd!
-6 is the even!
-7 is the odd!
-8 is the even!
-9 is the odd!
-10 is the even!
+#please enter the times:10
+#1 is the odd!
+#2 is the even!
+#3 is the odd!
+#4 is the even!
+#5 is the odd!
+#6 is the even!
+#7 is the odd!
+#8 is the even!
+#9 is the odd!
+#10 is the even!
