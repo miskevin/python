@@ -7,7 +7,7 @@ while len(nb) < 5:
     print("the contend of list",nb)
 print("bubble sort!")
 
-for j in range(4):
+for j in range(len(nb)-1):
     for i in range(len(nb)-1):
         if nb[i] > nb[i+1]:
             nb[i], nb[i+1] = nb[i+1],nb[i]
