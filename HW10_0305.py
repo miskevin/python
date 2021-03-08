@@ -2,7 +2,7 @@
 #順便排序
 import random
 group=[]
-for i in range(49):
+for i in range(1,50):
     group.append(i)
 arr=random.sample(group, 6)
 print(arr)
