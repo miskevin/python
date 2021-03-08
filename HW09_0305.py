@@ -30,3 +30,20 @@ print(nb)
 #the contend of list [5, 1, 4, 2, 8]
 #bubble sort!
 #[1, 2, 4, 5, 8]
+
+
+
+#teachere by teacher:
+nb = list()
+while len(nb) < 6:
+    num = int(input("please enter a number:"))
+    nb.append(num)
+    print("the contend of list",nb)
+
+a = len(nb)
+for k in range(a-1):
+    for x in range(a-k-1):
+        if nb[x] > nb[x+1]:
+            nb[x], nb[x+1] = nb[x+1],nb[x]
+print("bubble sort twice!",end='')
+print(nb)
