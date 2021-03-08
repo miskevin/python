@@ -23,3 +23,12 @@ for i in range(1,5):
     
 for i in range(3,0,-1):
     print(' '*(4-i)+'*'*(2*i-1))
+
+    
+    
+#other student sol:
+s = '*'
+for i in range(1,8,2):
+    print((s*i).center(7))
+for i in range(5,0,-2):
+    print((s*i).center(7))
