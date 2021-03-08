@@ -26,7 +26,7 @@ for i in range(3,0,-1):
 
     
     
-#other student sol:
+#other student sol:use center(var)
 s = '*'
 for i in range(1,8,2):
     print((s*i).center(7))
